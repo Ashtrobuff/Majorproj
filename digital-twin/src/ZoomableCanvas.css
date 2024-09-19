@@ -1,0 +1,53 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding: 20px;
+
+    background-color: white;
+    background-image: linear-gradient(90deg, #c3c1c1 1px, transparent 1px), 
+                      linear-gradient(180deg, #cfcdcd 1px, transparent 1px);
+    background-size: 50px 50px; /* Adjust grid size */
+  }
+  
+  .sensor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sensor-box {
+    background-color: lightgray;
+    border: 1px solid black;
+    width: 120px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .lights {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .light {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .control-panel {
+    margin-top: 20px;
+  }
+  
